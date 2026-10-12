@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base typography & smoothing */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom slick dot styles */
+.slick-dots li button:before {
+  font-size: 10px !important;
+  color: #7C4DFF !important;
+  opacity: 0.3 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #642CD7 !important;
+  opacity: 1 !important;
+}
+
+/* Utility classes */
+.gradient-primary {
+  background: linear-gradient(135deg, #642CD7 0%, #7C4DFF 100%);
+}
+
+.gradient-dark {
+  background: linear-gradient(135deg, #0F0B1E 0%, #1A1235 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #14B8A6 0%, #0D9488 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #642CD7 0%, #7C4DFF 50%, #14B8A6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
