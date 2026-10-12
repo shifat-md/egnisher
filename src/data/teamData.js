@@ -1,10 +1,12 @@
+import profileSvg from '../assets/profile.svg';
+
 export const teamData = [
   {
     id: "shifat",
     name: "MD SHIFAT",
     role: "Lead Frontend Developer",
-    image: "./assets/images/profile.svg",
-    bio: "Marcus has over 10 years of experience building modern React frontends, interactive UI components, and fast responsive layouts.",
+    image: profileSvg,
+    bio: "Specializes in building modern React frontends, interactive UI components, and fast responsive layouts.",
     skills: ["React", "JavaScript", "Performance", "Next.js", "Tailwind CSS"],
     socials: {
       github: "https://github.com",
@@ -16,8 +18,8 @@ export const teamData = [
     id: "Jihad",
     name: "Mazharul Jihad",
     role: "Lead Backend Developer",
-    image: "./assets/images/profile.svg",
-    bio: "Elena specializes in server-side development, database optimization, RESTful APIs, and background processing with Node.js and PostgreSQL.",
+    image: profileSvg,
+    bio: "Specializes in server-side development, database optimization, RESTful APIs, and background processing with Node.js.",
     skills: ["Node.js", "PostgreSQL", "Docker", "Redis", "REST APIs"],
     socials: {
       github: "https://github.com",
@@ -28,8 +30,8 @@ export const teamData = [
     id: "Hridoy",
     name: "Abdul Kadir Hridoy",
     role: "Senior UI/UX Developer",
-    image: "./assets/images/profile.svg",
-    bio: "David bridges the gap between Figma mockups and clean code, transforming visual designs into clean, accessible web interfaces.",
+    image: profileSvg,
+    bio: "Bridges the gap between Figma mockups and clean code, transforming visual designs into accessible web interfaces.",
     skills: ["UI/UX Design", "Figma", "Tailwind CSS", "JavaScript", "Accessibility"],
     socials: {
       linkedin: "https://linkedin.com",
@@ -40,8 +42,8 @@ export const teamData = [
     id: "Miraj",
     name: "Mehraj Hossain",
     role: "Senior Full-Stack Developer",
-    image: "./assets/images/profile.svg",
-    bio: "Sophia crafts complete web applications from end to end, integrating dynamic React frontends with reliable Express and PostgreSQL backends.",
+    image: profileSvg,
+    bio: "Crafts complete web applications from end to end, integrating dynamic React frontends with reliable backends.",
     skills: ["React", "Express", "REST APIs", "PostgreSQL", "Tailwind CSS"],
     socials: {
       github: "https://github.com",
@@ -52,8 +54,8 @@ export const teamData = [
     id: "niloy",
     name: "ektu busy achi",
     role: "DevOps & Cloud Developer",
-    image: "./assets/images/profile.svg",
-    bio: "Liam manages hosting setups, deployment automation, containerization with Docker, and cloud infrastructure for client web applications.",
+    image: profileSvg,
+    bio: "Manages deployment automation, hosting workflows, Docker containerization, and cloud setup for web applications.",
     skills: ["AWS", "Docker", "CI/CD", "Linux", "Deployment"],
     socials: {
       github: "https://github.com",

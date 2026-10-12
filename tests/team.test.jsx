@@ -10,13 +10,13 @@ describe('Team Pagination & Display', () => {
       </MemoryRouter>
     );
 
-    expect(screen.getByText('Marcus Vance')).toBeInTheDocument();
-    expect(screen.getByText('Elena Rostova')).toBeInTheDocument();
-    expect(screen.getByText('David Kim')).toBeInTheDocument();
-    expect(screen.getByText('Sophia Martinez')).toBeInTheDocument();
+    expect(screen.getByText('MD SHIFAT')).toBeInTheDocument();
+    expect(screen.getByText('Mazharul Jihad')).toBeInTheDocument();
+    expect(screen.getByText('Abdul Kadir Hridoy')).toBeInTheDocument();
+    expect(screen.getByText('Mehraj Hossain')).toBeInTheDocument();
 
     // 5th member should not be visible on page 1
-    expect(screen.queryByText('Liam Chen')).not.toBeInTheDocument();
+    expect(screen.queryByText('ektu busy achi')).not.toBeInTheDocument();
   });
 
   it('navigates to page 2 when clicking page 2 button', () => {
@@ -29,12 +29,11 @@ describe('Team Pagination & Display', () => {
     const page2Button = screen.getByRole('button', { name: 'Page 2' });
     fireEvent.click(page2Button);
 
-    // Liam Chen and Amara Okafor should now be displayed
-    expect(screen.getByText('Liam Chen')).toBeInTheDocument();
-    expect(screen.getByText('Amara Okafor')).toBeInTheDocument();
+    // 5th member should now be displayed
+    expect(screen.getByText('ektu busy achi')).toBeInTheDocument();
 
     // Page 1 members should not be displayed
-    expect(screen.queryByText('Marcus Vance')).not.toBeInTheDocument();
+    expect(screen.queryByText('MD SHIFAT')).not.toBeInTheDocument();
   });
 
   it('disables previous button on page 1 and next button on last page', () => {

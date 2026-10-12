@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaDribbble } from 'react-icons/fa';
 import Badge from '../common/Badge';
+import defaultAvatar from '../../assets/profile.svg';
 
 export default function TeamCard({ member }) {
   return (
@@ -8,9 +9,12 @@ export default function TeamCard({ member }) {
       {/* Profile photo */}
       <div className="relative aspect-square overflow-hidden bg-purple-50">
         <img
-          src={member.image}
+          src={member.image || defaultAvatar}
           alt={member.name}
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.src = defaultAvatar;
+          }}
           className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
