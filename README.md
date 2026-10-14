@@ -33,7 +33,7 @@ Built with **React**, **Vite**, **Tailwind CSS**, and **React Router DOM**, desi
 
 ---
 
-## 📂 Project Structure
+<!-- ## 📂 Project Structure
 
 ```text
 d:/agency/
@@ -94,7 +94,7 @@ d:/agency/
 └── vite.config.js                # Vite & Vitest configuration
 ```
 
----
+--- -->
 
 ## 🏃 Getting Started
 

@@ -9,7 +9,7 @@ export const teamData = [
     bio: "Specializes in building modern React frontends, interactive UI components, and fast responsive layouts.",
     skills: ["React", "JavaScript", "Performance", "Next.js", "Tailwind CSS"],
     socials: {
-      github: "https://github.com",
+      github: "https://github.com/shifat-md",
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com"
     }
@@ -34,6 +34,7 @@ export const teamData = [
     bio: "Bridges the gap between Figma mockups and clean code, transforming visual designs into accessible web interfaces.",
     skills: ["UI/UX Design", "Figma", "Tailwind CSS", "JavaScript", "Accessibility"],
     socials: {
+      github: "https://github.com/hridoy-devx",
       linkedin: "https://linkedin.com",
       dribbble: "https://dribbble.com"
     }
@@ -58,7 +59,7 @@ export const teamData = [
     bio: "Manages deployment automation, hosting workflows, Docker containerization, and cloud setup for web applications.",
     skills: ["AWS", "Docker", "CI/CD", "Linux", "Deployment"],
     socials: {
-      github: "https://github.com",
+      github: "https://github.com/niloy-ahmed08",
       linkedin: "https://linkedin.com"
     }
   },
