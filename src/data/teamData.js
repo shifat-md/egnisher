@@ -16,7 +16,7 @@ export const teamData = [
   },
   {
     id: "Jihad",
-    name: "Mazharul Jihad",
+    name: "Tasin",
     role: "Lead Backend Developer",
     image: profileSvg,
     bio: "Specializes in server-side development, database optimization, RESTful APIs, and background processing with Node.js.",
@@ -41,7 +41,7 @@ export const teamData = [
   },
   {
     id: "Miraj",
-    name: "Mehraj Hossain",
+    name: "Zishan",
     role: "Senior Full-Stack Developer",
     image: profileSvg,
     bio: "Crafts complete web applications from end to end, integrating dynamic React frontends with reliable backends.",
